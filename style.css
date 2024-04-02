@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* navbar started */
+.header{
+    background-color: #48afff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#search-bar{
+    background-color: #ffffff;
+    width: 416px;
+    height: 40px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.header h1{
+    color: #ffffff;
+}
+
+#LogIn-btn{
+    background-color: #ffffff;
+    color: #48afff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    /* font-size: 15px; */
+}
+#Register-btn{
+    background-color:transparent ;
+    color:#ffffff;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    /* font-size: 15px; */
+}
+
+@media(max-width: 769px){
+    #LogIn-btn{
+        display:none;
+    }
+    #Register-btn{
+        display:none;
+    }
+}
