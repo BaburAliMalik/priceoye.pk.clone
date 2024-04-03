@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color:#f1f3f6 ;
+}
+
 /* navbar started */
 .header{
     background-color: #48afff;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 15px;
 }
 
 #search-bar{
@@ -31,6 +36,7 @@
     border: none;
     border-radius: 5px;
     padding: 5px 15px;
+    margin-right: 5px;
     /* font-size: 15px; */
 }
 #Register-btn{
@@ -42,11 +48,45 @@
     /* font-size: 15px; */
 }
 
-@media(max-width: 769px){
-    #LogIn-btn{
-        display:none;
-    }
-    #Register-btn{
-        display:none;
-    }
+.header-img{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
 }
+
+.child{
+    padding: 8px;
+}
+
+.child p{
+    text-align: center;
+}
+.child:hover{
+    background-color: #f1f3f6;
+    border-bottom:4px solid  #48afff;
+    /* padding: 5px; */
+
+}
+
+@media(max-width: 769px){
+    .btn button{
+        display:none;
+    }
+   
+    /* .header{
+        justify-content: space-between;
+    }
+
+    #search-bar{
+        width: 380px; */
+    /* } */
+}
+
+/* @media(max-width: 650px){
+    .header{
+        justify-content: space-between;
+
+    }
+} */
