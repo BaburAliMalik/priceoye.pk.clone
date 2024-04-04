@@ -70,23 +70,66 @@ body{
 
 }
 
+.Earbud-container{
+    max-width: 1200px;
+    margin: 0px auto;
+    margin-top: 40px ;
+}
+
+
+.Earbud-text{
+display: flex;
+justify-content: space-between;
+}
+
+#view-text{
+    color: #48afff;
+}
+
+.Earbud-sub-img{
+    background-color: #ffffff;
+    width: 220px;
+    height: 280px;
+    padding: 15px;
+}
+.price-cut{
+    display: flex;
+    justify-content: space-between;
+}
+
+#off-price{
+    color: #48afff;
+}
+
+.Earbud-images-1st{
+    display: flex;
+    justify-content: space-between;
+}
+.Earbud-images-2nd{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
 @media(max-width: 769px){
     .btn button{
         display:none;
     }
    
-    /* .header{
+    .header{
         justify-content: space-between;
     }
 
     #search-bar{
-        width: 380px; */
-    /* } */
+        width: 380px; 
 }
+}
+  
 
-/* @media(max-width: 650px){
+@media(max-width: 650px){
     .header{
         justify-content: space-between;
 
     }
-} */
+}
