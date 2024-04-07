@@ -1,12 +1,18 @@
+/* universal selector started */
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
+/* universal selector ended */
+
+/* body started */
 
 body{
     background-color:#f1f3f6 ;
 }
+
+/* body ended */
 
 /* navbar started */
 .header{
@@ -47,7 +53,7 @@ body{
     padding: 5px 15px;
     /* font-size: 15px; */
 }
-
+/* header portion started */
 .header-img{
     background-color: #ffffff;
     display: flex;
@@ -67,8 +73,13 @@ body{
     background-color: #f1f3f6;
     border-bottom:4px solid  #48afff;
     /* padding: 5px; */
-
+    
 }
+/* header portion ended */
+
+
+
+/* Earbuds portion started */
 
 .Earbud-container{
     max-width: 1200px;
@@ -111,6 +122,24 @@ justify-content: space-between;
     justify-content: space-between;
 }
 
+/* Earbuds portion ended */
+
+.seller-text{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+/* mix items images portion started */
+.mix-items{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 50px; */
+}
+
+
+/* mix items images portion ended */
 
 @media(max-width: 769px){
     .btn button{
