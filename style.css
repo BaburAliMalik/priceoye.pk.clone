@@ -18,6 +18,7 @@ body{
 .header{
     background-color: #48afff;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 0px 15px;
@@ -57,6 +58,7 @@ body{
 .header-img{
     background-color: #ffffff;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 15px;
@@ -85,6 +87,7 @@ body{
     max-width: 1200px;
     margin: 0px auto;
     margin-top: 40px ;
+    flex-wrap: wrap;
 }
 
 
@@ -99,6 +102,7 @@ justify-content: space-between;
 
 .Earbud-sub-img{
     background-color: #ffffff;
+    flex-wrap: wrap;
     width: 220px;
     height: 280px;
     padding: 15px;
@@ -114,11 +118,13 @@ justify-content: space-between;
 
 .Earbud-images-1st{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .Earbud-images-2nd{
     margin-top: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -126,17 +132,81 @@ justify-content: space-between;
 
 .seller-text{
     text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
     margin: 50px 0px;
 }
 
 /* mix items images portion started */
-.mix-items{
+/* .mix-items-container{
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
+    justify-content:space-evenly;
+    margin-top: 50px;
+} */
+
+/* .seller-imgs{
+    display: flex;
     justify-content: space-between;
-    /* margin-top: 50px; */
+} */
+/* 
+.mix-sub-img{
+    width: 170px;
+    height: 160px;
+    padding: 20px; */
+    /* margin: 10px; */
+    /* background-color:#ffffff ;
+
+} */
+
+/* #mobile-img{
+    width: 425.98px;
+    height: 541px;
+    padding: 20px;
+} */
+
+/* .mobiles-content{
+    background-color:#ffffff ;
+    width: 425px;
+    height: 530px;
+    padding: 20px;
 }
+
+#mobile-img{
+    width:342px ;
+    height:357px ;
+}
+
+#img-one{
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+#img-two{
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+#img-three{
+    background-color: #ffffff; */
+    /* margin-top: 10px;
+}
+#img-four{
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+.img-one-sub{
+    display: flex;
+}
+
+.img-two-sub{
+    display: flex;
+} */
+
+
+/* .mobiles-content h4{
+    font-size: 12px;
+} */
 
 
 /* mix items images portion ended */
